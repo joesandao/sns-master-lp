@@ -10,6 +10,35 @@ const robotoSlab = Roboto_Slab({
 export const metadata: Metadata = {
   title: "SNS運用マスター | 煩わしいマーケティングを解決します",
   description: "SNS運用マスターは、お客様の時間を第一とし、アカウント作成から運用までほとんどの業務を代行します。",
+  
+  openGraph: {
+    title: "SNS運用マスター | 煩わしいマーケティングを解決します",
+    description: "SNS運用マスターは、お客様の時間を第一とし、アカウント作成から運用までほとんどの業務を代行します。",
+    url: "https://sns-master.jp/",
+    siteName: "SNS運用マスター",
+    images: [
+      {
+        url: "https://yourwebsite.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SNS運用マスターのOGP画像",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  
+  // その他のSEO関連プロパティ
+  robots: "index,follow",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    other: {
+      rel: "apple-touch-icon-precomposed",
+      url: "/apple-touch-icon.png",
+    },
+  },
+  
 };
 
 export default function RootLayout({
