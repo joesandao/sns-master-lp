@@ -4,7 +4,6 @@ import Company from "@/components/company";
 import Message from "@/components/message";
 import Works from "@/components/works";
 import Service from "@/components/service";
-import Loading from "@/app/loading";
 export default function Home() {
   return (
     <div>
