@@ -1,4 +1,3 @@
-import { AuroraText } from "@/components/magicui/aurora-text";
 export default function Hero() {
   return (
     <div className="bg-cover bg-center bg-no-repeat bg-[url('/istockphoto-1387373490-1024x1024.jpg')] h-screen flex flex-col justify-center gap-1 w-full">
