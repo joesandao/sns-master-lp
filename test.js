@@ -6,7 +6,7 @@ const fizzBuzz = Array.from({ length: 100 }, (_, i) => i + 1)
   });
 
 
-const AddPatterns = numbers => 
+const AddRules = numbers => 
   numbers.map(n => {
     const aho = n % 3 === 0 || n.toString().includes('3');
     const quzz = n % 7 === 0;
@@ -21,6 +21,6 @@ const AddPatterns = numbers =>
     return result || n;
   });
 
-const addedFizzBuzz = AddPatterns(fizzBuzz);
+const addedFizzBuzz = AddRules(fizzBuzz);
 
 console.log(addedFizzBuzz);
