@@ -2,7 +2,7 @@ const fizzBuzz = Array.from({ length: 100 }, (_, i) => i + 1)
   .map(n => {
     const fizz = n % 3 === 0;
     const buzz = n % 5 === 0;
-    return (fizz && buzz && 'FizzBuzz') || (fizz && 'Fizz') || (buzz && 'Buzz') || n;
+    return `${fizz ? 'Fizz' : ''}${buzz ? 'Buzz' : ''}` || n;
   });
 
 
