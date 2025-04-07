@@ -20,6 +20,7 @@ export default function Service() {
         <p className="text-6xl font-bold text-center">1</p>
         <h2 className="text-5xl text-red-400">企業・店のSNSアカウントの代理運用</h2>
         <Image src="/create-account.jpeg" alt="marketing" width={1000} height={500} />
+        {/*
         <Accordion type="single" collapsible className="px-20 w-[80%]">
           <AccordionItem value="item-1">
             <AccordionTrigger className="rounded-md p-4 bg-red-400 text-white text-3xl">View More</AccordionTrigger>
@@ -28,9 +29,11 @@ export default function Service() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
+        */ }
         <p className="text-6xl font-bold text-center">2</p>
         <h2 className="text-5xl text-red-400">広告運用</h2>
         <Image src="/marketing.jpg" alt="marketing" width={1000} height={500} />
+        {/*
         <Accordion type="single" collapsible className="px-20 w-[80%]">
           <AccordionItem value="item-1">
             <AccordionTrigger className="rounded-md p-4 bg-red-400 text-white text-3xl">View More</AccordionTrigger>
@@ -39,7 +42,7 @@ export default function Service() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-
+        */ }
       </div>
     </div>
   );

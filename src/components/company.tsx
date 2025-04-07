@@ -9,24 +9,20 @@ export default function Company() {
         </div>
         <dl className="flex flex-col gap-5 text-red-400 py-8 text-2xl border-lime-500 w-[100%] md:w-[60%] ">
           <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">社名</dt>
-            <dd>株式会社Cirrus</dd>
+            <dt className="w-1/5">サービス名</dt>
+            <dd>SNS運用マスター</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">代表者名</dt>
-            <dd>佐藤 忍</dd>
+            <dt className="w-1/5">代表名</dt>
+            <dd>北島 天貴</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">資本金</dt>
-            <dd>100万円</dd>
+            <dt className="w-1/5">電話番号</dt>
+            <dd>080-2679-7117</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">設立</dt>
-            <dd>2020年3月</dd>
-          </div>
-          <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">所在地</dt>
-            <dd>東京都千代田区神田松永町13<br />ＶＯＲＴ秋葉原ＩＩ</dd>
+            <dt className="w-1/5">住所</dt>
+            <dd>茨城県土浦市中神立町10-22 303</dd>
           </div>
         </dl>
       </div>
