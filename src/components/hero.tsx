@@ -18,11 +18,8 @@ export default function Hero() {
   ]
   return (
     <div className="relative bg-cover bg-center bg-no-repeat bg-[#e8e5dc] h-screen flex flex-col justify-center w-full">
-      <div className="absolute top-10 left-10 right-10 flex flex-col gap-5">
+      <div className="absolute top-20 left-10 right-10 flex flex-col gap-5">
         <h1 className="font-bold text-7xl text-center">SNS運用マスター</h1>
-        <h2 className="text-5xl text-red-400 text-center">あなたは本業を極め続ける</h2>
-        <h2 className="text-5xl text-red-400 text-center">私たちは新たな出会いと絆を作る</h2>
-        <h2 className="text-5xl text-red-400 text-center">あなたのSNSで。</h2>
       </div>
 
       <div className="absolute right-0 bottom-0">
@@ -50,7 +47,11 @@ export default function Hero() {
           />
         ))}
       </div>
-      <h2 className="absolute flex justify-center writespace-nowrap bottom-10 left-[10%] right-[10%] right text-8xl text-center text-shadow-lg">WE ARE<br />THE<br />SNS MASTER</h2>
+      <div className="absolute flex flex-col gap-5 justify-center writespace-nowrap bottom-10 left-[10%] right-[10%] right text-8xl text-center text-shadow-lg">
+        <h2 className="text-5xl text-red-400 text-center">あなたは本業を極め続ける</h2>
+        <h2 className="text-5xl text-red-400 text-center">私たちは新たな出会いと絆を作る</h2>
+        <h2 className="text-5xl text-red-400 text-center">あなたのSNSで。</h2>
+      </div>
     </div>
   );
 }
