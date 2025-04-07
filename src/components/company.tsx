@@ -21,7 +21,7 @@ export default function Company() {
             <dd>080-2679-7117</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
-            <dt className="w-1/5">住所</dt>
+            <dt className="w-1/5">所在地</dt>
             <dd>茨城県土浦市中神立町10-22 303</dd>
           </div>
         </dl>

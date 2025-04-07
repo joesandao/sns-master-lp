@@ -1,10 +1,4 @@
 import { AuroraText } from "@/components/magicui/aurora-text";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 import Image from "next/image";
 export default function Service() {
   return (
