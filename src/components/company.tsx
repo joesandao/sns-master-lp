@@ -2,10 +2,10 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 export default function Company() {
   return (
     <div>
-      <div className="flex flex-col gap-8 items-center justify-center">
-        <AuroraText className="text-7xl font-bold text-center">COMPANY</AuroraText>
+      <div className="flex flex-col gap-8 items-center justify-center py-5">
+        <AuroraText className="text-7xl font-bold text-center">INFO</AuroraText>
         <div className="flex items-center justify-center w-full">
-          <p className="text-4xl text-lime-500 mx-4">会社情報</p>
+          <p className="text-4xl text-lime-500 mx-4">サービス情報</p>
         </div>
         <dl className="flex flex-col gap-5 text-red-400 py-8 text-2xl border-lime-500 w-[100%] md:w-[60%] ">
           <div className="flex gap-5 border-b-2 border-red-400"> 
