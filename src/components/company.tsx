@@ -22,7 +22,7 @@ export default function Company() {
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">メールアドレス</dt>
-            <dd>cirrus.kitajima@gmail.com</dd>
+            <dd>support@sns-master.jp</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">所在地</dt>

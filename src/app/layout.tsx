@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Slab } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const robotoSlab = Roboto_Slab({
   variable: "--font-roboto-slab",
@@ -54,8 +55,19 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <footer className="bg-gradient-to-br from-blue-500 via-green-500 to-yellow-200 h-[50px] flex flex-row items-center px-20">
-          <p className="text-white text-xl">© 2025 Cirrus. All rights reserved.</p>
+        <footer className="bg-gradient-to-br from-blue-500 via-green-500 to-yellow-200 flex md:flex-row flex-col justify-between items-center px-10 py-10 gap-10">
+          <div className="flex gap-4 items-baseline md:flex-row flex-col">
+            <Link href="/terms-of-service">
+              <p className="text-white border-b-2 border-white text-base h-[25px] ">利用規約</p>
+            </Link>
+            <Link href="/privacy-policy">
+              <p className="text-white border-b-2 border-white text-base h-[25px]">プライバシーポリシー</p>
+            </Link>
+            <Link href="/commerce-law">
+              <p className="text-white border-b-2 border-white text-base h-[25px]">特定商取引法（通信販売）に基づく表示</p>
+            </Link>
+          </div>
+          <p className="text-white text-base">© 2025 Cirrus. All rights reserved.</p>
         </footer>
       </body>
     </html>

@@ -23,7 +23,6 @@ export default function Hero() {
       </div>
 
       <div className="absolute right-0 bottom-0">
-        <Image src="/smartphone.png" alt="hero" width={500} height={1000} />   
       </div>      
 
       <div className="flex justify-center items-center gap-20">

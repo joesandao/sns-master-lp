@@ -7,7 +7,7 @@ export default function Service() {
         <AuroraText className="text-7xl font-bold text-center">SERVICE</AuroraText>
         <div className="flex items-center w-full">
           <div className="flex-grow border-t-2 border-lime-500"></div>
-          <p className="text-2xl text-lime-500 mx-4">ここにうたい文句が入ります</p>
+          <p className="text-2xl text-lime-500 mx-4">提供サービス</p>
           <div className="flex-grow border-t-2 border-lime-500"></div>
         </div>
 
