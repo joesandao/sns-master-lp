@@ -35,7 +35,7 @@ export default function Point() {
           <p>あなたの事業や人柄を理解したSNS運用とあなたをサポートしていくこと</p>
         </div>
         <div className="flex">
-          <p>ビジネスのアカウントで大切なのは【バズらせる】ではなく、【コンスタント】に継続してくこと</p>
+          <p>ビジネスのアカウントで大切なのは<span className="text-lg text-red-400">バズらせる</span>ではなく、<span className="text-lg text-red-400">コンスタント</span>に継続してくこと</p>
         </div>
 
       </div>

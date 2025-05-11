@@ -55,8 +55,8 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <footer className="bg-gradient-to-br from-blue-500 via-green-500 to-yellow-200 flex md:flex-row flex-col justify-between items-center px-10 py-10 gap-10">
-          <div className="flex gap-4 items-baseline md:flex-row flex-col">
+        <footer className="bg-gradient-to-br from-blue-500 via-green-500 to-yellow-200 flex lg:flex-row flex-col justify-between items-center px-10 py-10 gap-10">
+          <div className="flex gap-4 items-baseline sm:flex-row flex-col">
             <Link href="/terms-of-service">
               <p className="text-white border-b-2 border-white text-base h-[25px] ">利用規約</p>
             </Link>
