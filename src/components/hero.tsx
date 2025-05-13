@@ -2,12 +2,13 @@ import * as motion from "motion/react-client"
 export default function Hero() {
 
   const logoStyle = {
-    backgroundImage: "url('/google-biz.png')",
     backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    width: 150,
-    height: 150,
+    margin: "3%",
+    width: "25%",
+    maxWidth: "150px",
+    maxHeight: "150px",
   }
 
   const logos = [
@@ -17,14 +18,14 @@ export default function Hero() {
   ]
   return (
     <div className="relative bg-cover bg-center bg-no-repeat bg-[#e8e5dc] h-screen flex flex-col justify-center w-full">
-      <div className="absolute top-20 left-10 right-10 flex flex-col gap-5">
-        <h1 className="font-bold text-7xl text-center">SNS運用マスター</h1>
+      <div className="absolute top-20 left-5 right-5 flex flex-col">
+        <h1 className="font-bold text-[6vw] text-center">SNS運用マスター</h1>
       </div>
 
       <div className="absolute right-0 bottom-0">
       </div>      
 
-      <div className="flex justify-center items-center gap-20">
+      <div className="flex justify-center items-center gap-5">
         {logos.map((image, index) => (
           <motion.img
             key={index}
