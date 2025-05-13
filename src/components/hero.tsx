@@ -46,10 +46,10 @@ export default function Hero() {
           />
         ))}
       </div>
-      <div className="absolute flex flex-col gap-5 justify-center writespace-nowrap bottom-10 left-[10%] right-[10%] right text-8xl text-center text-shadow-lg">
-        <h2 className="text-5xl text-red-400 text-center">あなたは本業を極め続ける</h2>
-        <h2 className="text-5xl text-red-400 text-center">私たちは新たな出会いと絆を作る</h2>
-        <h2 className="text-5xl text-red-400 text-center">あなたのSNSで。</h2>
+      <div className="text-[4vw] absolute flex flex-col gap-5 justify-center writespace-nowrap bottom-10 left-[10%] right-[10%] right text-8xl text-center text-shadow-lg">
+        <h2 className="text-red-400 text-center">あなたは本業を極め続ける</h2>
+        <h2 className="text-red-400 text-center">私たちは新たな出会いと絆を作る</h2>
+        <h2 className="text-red-400 text-center">あなたのSNSで。</h2>
       </div>
     </div>
   );
