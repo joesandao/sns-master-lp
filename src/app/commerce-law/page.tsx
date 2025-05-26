@@ -8,15 +8,15 @@ export default function CommerceLow() {
         <dl className="flex flex-col gap-5 py-8 text-xl  w-[100%] md:w-[80%] ">
           <div className="flex gap-5 border-b-2"> 
             <dt className="w-1/5">事業者</dt>
-            <dd>株式会社Cirrus</dd>
+            <dd>北島 天貴</dd>
           </div>
           <div className="flex gap-5 border-b-2"> 
             <dt className="w-1/5">住所</dt>
-            <dd>101-0023 東京都千代田区神田松永町13 VORT秋葉原Ⅱ</dd>
+            <dd>埼玉県久喜市久喜東5-31-9 205</dd>
           </div>
           <div className="flex gap-5 border-b-2 "> 
             <dt className="w-1/5">メールアドレス</dt>
-            <dd>info@f-cirrus.co.jp</dd>
+            <dd>support@sns-master.jp</dd>
           </div>
           <div className="flex gap-5 border-b-2 "> 
             <dt className="w-1/5">役務の対価</dt>

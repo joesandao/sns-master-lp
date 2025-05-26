@@ -26,7 +26,7 @@ export default function Company() {
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">所在地</dt>
-            <dd>茨城県土浦市中神立町10-22 303</dd>
+            <dd>埼玉県久喜市久喜東5-31-9 205</dd>
           </div>
         </dl>
       </div>
