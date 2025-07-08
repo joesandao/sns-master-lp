@@ -10,7 +10,7 @@ export default function Company() {
         <dl className="flex flex-col gap-5 text-red-400 py-8 text-xl border-lime-500 w-[100%] md:w-[60%] ">
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">商品名</dt>
-            <dd>SNS運用マスター</dd>
+            <dd>Series3</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">代表名</dt>
