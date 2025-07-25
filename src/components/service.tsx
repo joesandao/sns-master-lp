@@ -79,7 +79,7 @@ export default function Service() {
         </div>
 
         {/* サービスプランテーブル */}
-        <div className="w-full max-w-6xl mt-12">
+        <div className=" max-w-6xl mt-12">
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-300 bg-white shadow-lg rounded-lg">
               <thead>
