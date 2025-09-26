@@ -67,7 +67,7 @@ export default function RootLayout({
               <p className="text-white border-b-2 border-white text-base h-[25px]">特定商取引法（通信販売）に基づく表示</p>
             </Link>
           </div>
-          <p className="text-white text-base">© 2025 Ⅲes. All rights reserved.</p>
+          <p className="text-white text-base">© 2025 0UTL1ER. All rights reserved.</p>
         </footer>
       </body>
     </html>
