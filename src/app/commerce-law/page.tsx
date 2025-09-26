@@ -8,15 +8,15 @@ export default function CommerceLow() {
         <dl className="flex flex-col gap-5 py-8 text-xl  w-[100%] md:w-[80%] ">
           <div className="flex gap-5 border-b-2"> 
             <dt className="w-1/5">事業者</dt>
-            <dd>北島 天貴</dd>
+            <dd>0UTL1ER株式会社</dd>
           </div>
           <div className="flex gap-5 border-b-2"> 
             <dt className="w-1/5">住所</dt>
-            <dd>埼玉県久喜市久喜東5-31-9 205</dd>
+            <dd>東京都千代田区神田松永町13番地 VORT秋葉原II</dd>
           </div>
           <div className="flex gap-5 border-b-2 "> 
             <dt className="w-1/5">メールアドレス</dt>
-            <dd>support@sns-master.jp</dd>
+            <dd>info@0utl1er.tech</dd>
           </div>
           <div className="flex gap-5 border-b-2 "> 
             <dt className="w-1/5">役務の対価</dt>

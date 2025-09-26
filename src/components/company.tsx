@@ -14,7 +14,7 @@ export default function Company() {
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">代表名</dt>
-            <dd>北島 天貴</dd>
+            <dd>0UTL1ER株式会社</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">電話番号</dt>
@@ -22,11 +22,11 @@ export default function Company() {
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">Email</dt>
-            <dd>support@sns-master.jp</dd>
+            <dd>info@0utl1er.tech</dd>
           </div>
           <div className="flex gap-5 border-b-2 border-red-400"> 
             <dt className="w-1/5">所在地</dt>
-            <dd>埼玉県久喜市久喜東5-31-9 205</dd>
+            <dd>東京都千代田区神田松永町13番地 VORT秋葉原II</dd>
           </div>
         </dl>
       </div>
